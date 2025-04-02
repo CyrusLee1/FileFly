@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文件传输工具</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}"/>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content" id="content"></div>
+    <div class="input">
+      <textarea name="input-content" id="input-content"></textarea>
+      <a id="sendMessage" data-title="发送"></a>
+    </div>
+  </div>
+</body>
+<script src="{{ url_for('static', filename='js/api.js') }}" type="module"></script>
+<script src="{{ url_for('static', filename='js/app.js') }}" type="module"></script>
+</html>
