@@ -14,9 +14,9 @@ cd FileFly # 进入到项目目录
 python -m venv .venv
 
 # 进入虚拟环境下
-venv\Scripts\activate.bat  # Windows 提示命令符
-venv\Scripts\Activate.ps1  # Windows Powershell
-source venv/bin/activate  # Linux
+.venv\Scripts\activate.bat  # Windows 提示命令符
+.venv\Scripts\Activate.ps1  # Windows Powershell
+source .venv/bin/activate  # Linux
 
 # 使用 pip 安装
 pip install -r requirements.txt
