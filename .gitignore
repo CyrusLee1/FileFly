@@ -9,3 +9,6 @@ __pycache__/
 
 # 迁移文件
 migrations/
+
+# sqlite
+*.db
