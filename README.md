@@ -36,6 +36,11 @@ python -m pip install -r requirements.txt
 + 一般情况运行项目
 
 ```bash
+# 初始化数据库
+flask db init
+flask db migrate
+flask db upgrade
+
 # 运行项目
 flask run --debug
 
